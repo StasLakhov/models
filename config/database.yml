@@ -15,3 +15,9 @@ production:
   database: cursor_production
   username: rails_app
   password: pass123
+
+test:
+  <<: *default
+  database: cursor_test
+  username: rails_app
+  password: pass123
